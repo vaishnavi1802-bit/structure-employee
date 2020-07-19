@@ -1,0 +1,14 @@
+#include <stdio.h> 
+struct employee{    // structure definition
+  char name[20];
+  int age;
+  int salary;
+}
+int main()
+{
+  struct employee person; // declaration of structure variable person
+  printf("Enter name,age and salary \n");
+  scanf("%s %d %d", person.name, person.age, person.salary);
+  printf("%s %d %d \n", person.name, person.age, person.salary);
+  return 0;
+}
